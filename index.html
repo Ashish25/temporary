@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dimple - Titanic</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+<body>
+<h2>
+    
+    <span style="color:#f46242"> Explanatory Visualisation - Titanic</span>
+   </h2>
+
+   <div align="center">
+   		<p>The goal of ths project is to showcase visual explanation of Titanic Dataset using D3/Dimple.js</p>
+		<p style = "color:blue">On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. 
+		One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class. 
+
+		<p>The dataset is explored for such patterns such as age-groups, alone/not-alone, and the cabin-calss, then visualizations are plotted to demonstrate our findings. 
+		</p>
+	</div>
+
+
+	<div align="center">
+		<div id="line"></div>
+		<p>Children seems to have higher survival rate, maybe because children had their family with them.
+		</p>
+	</div>
+	<div  align="center">
+		<div id="Bar1"></div>
+		<p>The people who travelled with company had a higher survival rate than those who did not.
+		</p>
+	</div>
+	<div  align="center">
+		<div id="Bar2"></div>
+		<p>Femaale Survival (Rate): 1st class > 2nd class > 3rd class</p>
+		<p>Male Survival (Rate): 1st class > 2nd class > 3rd class</p>
+	</div>
+
+
+	
+	<div class="conclusion">
+		<p style="color: blue">1. The families or person who were travelling in groups were much lucky to survive the distater.</p>
+		<p style="color: blue">2. A higher percentage of children made it through as compared to the adults.</p>
+		<p style="color: blue">3. The survival rate of female passengers was much greater than that of male passengers.
+		</p>
+
+	</div>
+	
+	<script src="js/main.js"></script>
+</body>
+
+</html>
