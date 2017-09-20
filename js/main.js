@@ -4,8 +4,8 @@
 
         var chart = new dimple.chart(svg1, data);
 
-        x = chart.addCategoryAxis("x", "Age_group");
-        x.addOrderRule(["0-15", "16-30", "31-45", "46-60", "60+"]);
+        x = chart.addCategoryAxis("x", "Age_Group");
+        x.addGroupOrderRule(["0-15", "16-30", "31-45", "46-60", "60+"]);
         chart.addMeasureAxis("y", "Survival_Rate");
         chart.addSeries(null,dimple.plot.scatter);
         chart.addSeries(null,dimple.plot.line);
